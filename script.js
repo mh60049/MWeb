@@ -1,6 +1,7 @@
 var character = document.getElementById("character");
 var block = document.getElementById("block");
 let int1 = 0;
+let intSpeed = 1;
 
 function jump(){
     if(character.classList != "animate"){

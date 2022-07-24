@@ -2,11 +2,28 @@
     padding: 0;
     margin: 0;
 }
+
+.tips{
+    width: 500px;
+}
+
+.tips-title{
+    color: red;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.tips-refresh{
+    color: orange;
+    font-weight: bold;
+}
+
 #game{
     width: 500px;
     height: 200px;
-    border: 1px solid black;
+    border: 1px solid orange;
 }
+
 #character{
     width: 20px;
     height: 50px;
