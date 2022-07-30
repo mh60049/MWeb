@@ -2,7 +2,7 @@ body{
   font-family: Arial;
 }
 
-.container-3 {
+.container-1 {
   width: 75%;
   margin: 0 auto;
   text-align: center;
@@ -28,3 +28,27 @@ body{
 .flex-box-rps img:hover {
   box-shadow: 0px 5px 20px rgba(37, 50, 233, 1);
 }
+
+.flex-box-2 {
+  width: 75%;
+  height: 60px;
+  padding: 10px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+
+.btn-PlayAgain {
+  background-color: green;
+  color: white;
+  padding: 10px;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.btn-PlayAgain:hover {
+  box-shadow: 0px 5px 10px rgb(37, 233, 217);
+}
+
