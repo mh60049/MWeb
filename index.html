@@ -1,21 +1,22 @@
 <!DOCTYPE html>
-<html lang="en" onclick="jump()">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>
-        Game
-    </title>
-
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="static/css/style.css">
+  <title>Paper, Scissors, Stone</title>
 </head>
 <body>
-    <p class="tips">
-        <span class="tips-title">Tips from MH</span> : Click to jump over to avoid hitting the moving block. Click on <span class="tips-refresh">Refresh</span> button on the address bar to restart the game.
-    </p>
-    <div id="game">
-        <div id="character"></div>
-        <div id="block"></div>
+    <div class="container-3">
+    <h2 style="font-size: 36px">Paper, Scissors, Stone</h2>
+    <div class="flex-box-rps" id="flex-box-rps-div">
+      <img id="paper" src="static\images\Paper.jpg" height=150 width=150 alt="" onclick="rpsGame(this)">
+      <img id="scissors" src="static\images\Scissors.jpg" height=150 width=150 alt="" onclick="rpsGame(this)">
+      <img id="stone" src="static\images\Stone.jpg" height=150 width=150 alt="" onclick="rpsGame(this)">
     </div>
+  </div>
+
+  <script src="static/js/script.js"></script>
 </body>
-<script src="script.js"></script>
 </html>

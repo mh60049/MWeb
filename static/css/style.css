@@ -1,0 +1,30 @@
+body{
+  font-family: Arial;
+}
+
+.container-3 {
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+  padding:0;
+  /*border: 1px solid black*/
+}
+
+.flex-box-rps {
+  border: 1px solid black;
+  display: flex;
+  padding: 50px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around
+}
+
+.flex-box-result {
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+}
+
+.flex-box-rps img:hover {
+  box-shadow: 0px 5px 25px rgba(37, 50, 233, 1);
+}
