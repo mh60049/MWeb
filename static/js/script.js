@@ -74,9 +74,9 @@ function rpsFrontEnd(humanImageChoice, botImageChoice, finalMessage) {
   var botDiv = document.createElement('div');
   var messageDiv = document.createElement('div');
 
-  humanDiv.innerHTML = "<img src='" + imagesDatabase[humanImageChoice] + "' height=150 width=150 style='box-shadow: 0px 10px 50px rgba(37, 50, 233, 1);'>"
-  messageDiv.innerHTML = "<h1 style='color: " + finalMessage['color'] + "; font-size: 72px; padding: 30px; '>" + finalMessage['message'] + "</h1>";
-  botDiv.innerHTML = "<img src='" + imagesDatabase[botImageChoice] + "' height=150 width=150 style='box-shadow: 0px 10px 50px rgba(243, 38, 24, 1);'>"
+  humanDiv.innerHTML = "<img src='" + imagesDatabase[humanImageChoice] + "' height=100 width=150 style='box-shadow: 0px 5px 20px rgba(37, 50, 233, 1);'>"
+  messageDiv.innerHTML = "<h1 style='color: " + finalMessage['color'] + "; font-size: 36px; padding: 30px; '>" + finalMessage['message'] + "</h1>";
+  botDiv.innerHTML = "<img src='" + imagesDatabase[botImageChoice] + "' height=100 width=150 style='box-shadow: 0px 5px 20px rgba(243, 38, 24, 1);'>"
   document.getElementById('flex-box-rps-div').appendChild(humanDiv);
   document.getElementById('flex-box-rps-div').appendChild(messageDiv);
   document.getElementById('flex-box-rps-div').appendChild(botDiv);
